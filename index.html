@@ -10,7 +10,12 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
   </head>
   <body>
     <nav>
@@ -23,10 +28,8 @@
         <li class="nav-link"><a href="#calon-page">Calon</a></li>
         <li class="nav-link"><a href="#about-page">About</a></li>
         <li class="nav-link"><a href="#tata-cara-page">Tata Cara</a></li>
-        <li class="nav-link"><a href="#">Timeline</a></li>
-        <li class="nav-link">
-          <button class="nav-login-btn btn" id="login-btn">Login</button>
-        </li>
+        <li class="nav-link"><a href="#timeline-p">Timeline</a></li>
+        <button class="nav-login-button button" id="login-button">Login</button>
       </ul>
     </nav>
 
@@ -34,13 +37,15 @@
       <div class="header-text">
         <h1 class="heading"><span>TETI</span> Road to The New Captain</h1>
         <p>Suaramu adalah kunci kemajuan KMTETI, gunakan hak pilihmu!</p>
-        <div class="header-btn-container">
-          <button id="vote-btn" class="btn">Vote</button>
-          <button id="daftar-btn" class="btn">Daftar</button>
+        <div class="header-button-container">
+          <button id="vote-button" class="button">Vote</button>
+          <button id="daftar-button" class="button">Daftar</button>
         </div>
       </div>
-      <div class="header-logo">
-        <img src="img/tetronica-logo.png" alt="TETRONICA LOGO" />
+      <div class="logo-container">
+        <div class="header-logo">
+          <img src="img/tetronica-logo.png" alt="TETRONICA LOGO" />
+        </div>
       </div>
     </section>
 
@@ -57,7 +62,7 @@
           <img src="img/calon-sementara.png" alt="calon 3" />
         </div>
       </div>
-      <button class="btn">Profil Selengkapnya</button>
+      <button class="button">Profil Selengkapnya</button>
     </section>
 
     <section id="about-page">
@@ -71,7 +76,7 @@
           lingkungan yang nyaman dan hangat bagi seluruh masyarakat TETITB.
         </p>
       </div>
-      <button class="btn">Baca Selengkapnya</button>
+      <button class="button">Baca Selengkapnya</button>
     </section>
 
     <section id="tata-cara-page">
@@ -81,8 +86,13 @@
       </div>
     </section>
 
-    <section id="timeline-page">
-      <h1 class="heading">Timeline</h1>
+    <section id="footer-page">
+      <h4>Official Account</h4>
+      <div class="footer-icons">
+        <a href=""><i class="ri-instagram-line"></i></a>
+        <a href=""><i class="ri-line-fill"></i></a>
+      </div>
+      <p>© 2023 IT KPU KMTETI</p>
     </section>
 
     <script
