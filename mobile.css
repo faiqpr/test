@@ -37,8 +37,19 @@
         margin: 1rem;
     }
 
+    
     .header-text h1 span { 
         font-size: 45px;
+    }
+
+    .header-text p { 
+        font-size: 16px;
+        width: 90%;
+        margin: 3rem auto;
+    }
+
+    .header-text p span { 
+        font-size: 20px;
     }
 
     .header-button-container { 
@@ -90,6 +101,10 @@
 
     .about-text { 
         padding: 2rem 1rem;
+    }
+
+    .about-text p { 
+        font-size: 16px;
     }
 
     #tata-cara-page { 
